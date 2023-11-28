@@ -111,6 +111,12 @@ nav {
   width: 100%;
   height: auto;
   object-fit: cover;
+  transition: filter 0.3s ease;
+  filter: brightness(75%); 
+}
+
+.block:hover img {
+  filter: brightness(100%);
 }
 
 .block-description {
