@@ -27,6 +27,7 @@ For Challenge 2, we were tasked with creating a portfolio website.
 * Image and icon elements contain accessible `alt` attributes
 * Heading attributes fall in sequential order
 * Title elements contain a concise, descriptive title
+* Used flexbox, CSS Grid, media queries, and CSS variables
 
 ## Table of Contents
 

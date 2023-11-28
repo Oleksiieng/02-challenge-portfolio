@@ -23,13 +23,18 @@ p {
   margin: 0;
 }
 
+:root {
+  --section-title-color:  #408DA7;
+  --border-color: #003366;
+}
+
 /** header **/
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 25px;
-  color: #408DA7;
+  color: var(--section-title-color);
   background-color:#adbcce;
 }
 
@@ -90,13 +95,13 @@ nav a {
   flex-basis: 20%; 
   flex-shrink: 0;
   text-align: right;
-  color: #408DA7;
+  color: var(--section-title-color);
   padding-right: 10px;
 }
 
 .section-content {
   flex-grow: 1;
-  border-left: 2px solid #003366;
+  border-left: 2px solid var(--border-color);
   padding-left: 20px;
 }
 
@@ -112,7 +117,7 @@ nav a {
 
 .block {
   position: relative;
-  border: 2px solid #003366;
+  border: 2px solid var(--border-color);
   overflow: hidden;  
 }   
 
