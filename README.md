@@ -2,16 +2,17 @@
 
 ## Description
 
+The site can be accessed at https://oleksiieng.github.io/02-challenge-portfolio/
+
 The following image shows the web application's appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./images/screenshot.png)
+![The webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./images/screen1.png)
 
 
 
 > **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
 
-
-The site can be accessed at https://oleksiieng.github.io/02-challenge-portfolio/
+![Mobile version of the site](./images/screen2.png)
 
 ### User Story
 
