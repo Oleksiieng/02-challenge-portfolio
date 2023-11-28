@@ -121,7 +121,7 @@ nav a {
   z-index: 0;
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   transition: filter 0.3s ease;
   filter: brightness(75%); 
 }
@@ -217,4 +217,8 @@ nav a {
   }
 
   /** /hero-banner **/
+
+  .block-wrapper {
+    max-height: 500px; 
+  }
 }
